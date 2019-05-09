@@ -1,0 +1,20 @@
+p {
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(192, 192, 192);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#bioWrap {
+    height: 25%;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 3%
+}
+
+#malcolmBear {
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 2%;
+}

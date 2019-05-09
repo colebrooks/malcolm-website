@@ -14,7 +14,9 @@ html {
     font-size: 500%;
     color: transparent;
     text-align: center;
-    margin-right: 35%;
+   /* margin-right: 35%;*/
+    margin-left: 18%;
+    float: left;
     text-shadow: -1px -1px 0 white, 1px 1px 0 black, -1px 0 0 white, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.75), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
 
@@ -72,5 +74,6 @@ html {
     text-align: left;
     text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.5), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
+
 
 
