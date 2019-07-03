@@ -12,13 +12,11 @@ header {
 }
 
 .name {
-    width: 100%;
+    width: 82%;
     position: relative;
     font-family: 'Notable', sans-serif;
     font-size: 500%;
     color: transparent;
-    /*text-align: center;
-    margin-right: 35%;*/
     margin-left: 18%;
     float: left;
     text-shadow: -1px -1px 0 white, 1px 1px 0 black, -1px 0 0 white, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.75), 0 -6px 7px rgba(0, 0, 0, 0.5);
@@ -31,7 +29,6 @@ header {
     position: absolute;
     color: #d3d3d3;
     left: 0;
-    right: 0;
 }
 
 .name::after {
@@ -41,7 +38,6 @@ header {
     position: absolute;
     color: #525b73;
     left: 0;
-    right: 0;
     top: 0;
     -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
 }
