@@ -28,6 +28,7 @@ html {
     position: absolute;
     color: #efe1b3;
     left: 0;
+    right: 0;
 }
 
 .name::after {
@@ -37,6 +38,7 @@ html {
     position: absolute;
     color: #525b73;
     left: 0;
+    right: 0;
     top: 0;
     -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
 }
