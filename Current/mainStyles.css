@@ -8,18 +8,15 @@ html {
 
 }
 
-header {
-}
-
 .name {
     width: 100%;
     position: relative;
     font-family: 'Notable', sans-serif;
     font-size: 500%;
     color: transparent;
-    /*text-align: center;
-    margin-right: 35%;*/
-    margin-left: 18%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
     float: left;
     text-shadow: -1px -1px 0 white, 1px 1px 0 black, -1px 0 0 white, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.75), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
@@ -29,7 +26,7 @@ header {
     white-space: pre;
     text-transform: uppercase;
     position: absolute;
-    color: #d3d3d3;
+    color: #efe1b3;
     left: 0;
     right: 0;
 }
@@ -47,6 +44,7 @@ header {
 }
 
 #logo {
+    margin-left: 5%;
 }
 
 #navWrap {

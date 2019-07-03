@@ -1,33 +1,20 @@
 
-#topWrap {
-    height: 200px;
-}
-
-#pageName {
-    margin-left: 10%;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 ul {
-    list-style-type: none;
+    width: 33%;
+    margin: auto;
+    text-align: center;
     float: right;
-    width: 50%;
-    height: 100%;
-    padding-left: 0;
 }
 
 li {
-    float: left;
-    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
 }
 
 a {
     font-family: 'Julis Sans One', sans-serif;
     font-size: 2em;
     color: rgb(192, 192, 192);
-    display: block;
-    padding: 8px 16px;
     text-decoration: underline;
     text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.5), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
@@ -35,16 +22,16 @@ a {
 p {
     font-family: 'Julius Sans One', sans-serif;
     color: rgb(192, 192, 192);
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: bold;
 }
 
 #bioWrap {
     height: 25%;
     width: 30%;
-    float: right;
-    margin-right: 10%;
-    margin-top: 3%
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%
 }
 
 #malcolmBear {
