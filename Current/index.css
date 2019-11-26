@@ -8,7 +8,7 @@ html {
 
 }
 
-.name {
+#name {
     width: 100%;
     position: relative;
     font-family: 'Notable', sans-serif;
@@ -21,7 +21,7 @@ html {
     text-shadow: -1px -1px 0 white, 1px 1px 0 black, -1px 0 0 white, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.75), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
 
-.name::before {
+#name::before {
     content: "Malcolm" '\A' "Brooks";
     white-space: pre;
     text-transform: uppercase;
@@ -31,7 +31,7 @@ html {
     right: 0;
 }
 
-.name::after {
+#name::after {
     content: "Malcolm" '\A' "Brooks";
     white-space: pre;
     text-transform: uppercase;
@@ -44,58 +44,51 @@ html {
 }
 
 #contentWrapper {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
 }
 
-#logo {
-    float: left;
-    display: inline;
-    width: 50%;
-}
-
 #navWrap {
-    list-style-type: none;
-    margin: 0;
-    margin-right: 5%;
+    text-align: center;
+    margin: 0 auto;
     padding: 0;
-    height: 50%;
-    width: 200px;
-    float: right;
-    display: inline;
 }
 
 #navWrap li {
-    margin-top: 50px;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
+    display: inline-block;
+    padding: 8px 32px;
 }
 
-#navWrap li:hover {
-    margin-right: 15%;
-    margin-left: -15%;
+#navWrap a:hover {
+    color: #ad4345;
+    -webkit-transition: color 250ms;
+    -moz-transition: color 250ms;
+    -o-transition: color 250ms;
 }
 
 #navWrap a {
-    display: block;
-    font-family: 'Julis Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 2em;
     color: rgb(192, 192, 192);
-    padding: 8px 16px;
-    text-decoration: underline;
-    text-align: left;
+    text-decoration: none;
     text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.5), 0 -6px 7px rgba(0, 0, 0, 0.5);
 }
 
 #blurb {
     width: 30%;
-    float: left;
+    float: right;
     margin-top: 10%;
     display: inline;
     color: #efe1b3;
     font-size: 125%;
-    font-family: 'Nova Script';
-    font-weight: lighter;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
 }
 
+#logo {
+    float: left;
+    display: inline;
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+}
