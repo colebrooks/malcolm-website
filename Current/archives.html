@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset=utf-8>
+    <title>Malcolm Brooks | Archives</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="archives.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="name"><a href="index.html">Malcolm<br>Brooks</a></h1>
+    </header>
+    <div id="contentWrapper">
+      <ul id="navWrap">
+        <li><a href=titles.html>TITLES</a></li>
+        <li><a href=about.html>ABOUT</a></li>
+        <li><a href=archives.html>ARCHIVES</a></li>
+        <li><a href=contact.html>CONTACT</a></li>
+      </ul>
+      <button type="button" class="collapsible" id="interviewButton">Interviews</button>
+      <div class="content">
+	<h2 class="archiveName">Interview with Pia Lindstrom</h2>
+	<audio controls>
+	<source src="../audio/brooksPia.MP3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio> 
+	<h2 class="archiveName">Montana Public Radio Interview</h2>
+	<audio controls>
+	  <source src="../audio/mtprBrooks.mp3" type="audio/mpeg">
+	    Your browser does not support the audio element.
+	</audio> 
+      </div> 
+      <button type="button" class="collapsible">Videos</button>
+      <div class="content">
+	<div id="leftVidCol">
+	  <div class="vidContainer">
+	    <iframe width="854" height="480" src="https://www.youtube.com/embed/AM2KiblNyz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	</div>
+	<div id="rightVidCol">
+	  <div class="vidContainer">
+	    <iframe width="854" height="480" src="https://www.youtube.com/embed/ju6Hsc1PBE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+	      this.classList.toggle("active");
+	      var content = this.nextElementSibling;
+	      if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+	      } else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+	      } 
+	  });
+      }
+    </script>
+</body>
+</html>

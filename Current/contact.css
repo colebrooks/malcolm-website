@@ -1,0 +1,26 @@
+
+.contactWrapper {
+    text-align: center;
+}    
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5em;
+    color: #ad4345;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.5), 0 -6px 7px rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.6em;
+    color: #efe1b3;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 0 0 black, 1px 0 0 black, 0 3px 4px rgba(192, 192, 192, 0.5), 0 -6px 7px rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+}
+
+a:link {
+    color: #efe1b3;    
+}
