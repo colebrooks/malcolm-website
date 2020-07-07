@@ -1,6 +1,6 @@
 
 html {
-    background: url(Images/leatherbackground2darkened.jpg) no-repeat center center fixed;
+    background: url(Images/leatherbackground2darkened.jpg) #000000 no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -78,8 +78,8 @@ html {
 #blurb {
     width: 30%;
     float: right;
-    margin-top: 10%;
-    margin-right: 7.5%;
+    margin-top: 15%;
+    margin-right: 15%;
     color: #efe1b3;
     font-size: 125%;
     font-family: 'Julius Sans One', sans-serif;
@@ -87,8 +87,8 @@ html {
 }
 
 #logo {
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    margin-left: 17%;
 }
 
 .author {
